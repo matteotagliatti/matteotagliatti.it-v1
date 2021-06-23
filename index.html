@@ -1,0 +1,97 @@
+---
+title: Web Design & Development
+description: Mi chiamo Matteo Tagliatti. Sono un web designer e developer in continuo spostamento tra Pavia e Alessandria.
+---
+
+<!doctype html>
+<html>
+
+<head>
+  {% include head.html %}
+  <title>{{ page.title }} - Matteo Tagliatti</title>
+  <meta name="description" content="{{ page.description }}">
+</head>
+
+<body class="home">
+    {% include overlay.html %}
+    {% include logo.html %}
+
+  {% include socials.html %}
+  
+  <div class="header">
+      <div class="header-block">
+          <h3>Matteo Tagliatti</h3>
+          <h1><span class="color">Web</span> Design e<br>Development</h1>
+      </div>
+      <a href="#home-about" class="scroll-down"></a>
+  </div>
+
+  <div id="home-about" class="section home-about">
+      <div class="wrap-wide">
+          <div class="photo">
+              <div class="image-box">
+                  <img src="assets/img/placeholder-2.jpg" class="image-box-inside">
+                  <img src="assets/img/placeholder-2.jpg" class="image-box-small">
+                  <div class="image-box-overlay"></div>
+              </div>
+          </div>
+
+          <div class="wrap">
+              <div class="block-left">
+                  <h2 class="light">Chi sono?</h2>
+                  <p class="light">{{ page.description }} Realizzo interfacce web su misura e costruisco siti web con Wordpress, Shopify, Gatsby e altro. Chiarezza e semplicità sono le mie linee guida.</p>
+
+              </div>
+
+              <div class="block-right">
+                  <div class="col-left">
+                      <h3 class="color">Design</h3>
+                      <p class="light">HTML, CSS</p>
+                      <p class="light">JavaScript</p>
+                      <p class="light">React</p>
+                  </div>
+                  <div class="col-right">
+                      <h3 class="color">Development</h3>
+                      <p class="light">Wordpress</p>
+                      <p class="light">Shopify</p>
+                      <p class="light">Gatsby</p>
+                      <p class="light">Jekyll</p>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+  </div>
+
+  <div class="section home-rw">
+      <div class="wrap-wide">
+
+          <div class="rw-title">
+              <h2>Lavori recenti</h2>
+              <a href="lavori.html" class="btn animatelink">Tutti i miei lavori<img src="assets/img/arrow-small-light.svg"></a>
+          </div>
+          
+          <div class="rw-cases">
+                {% for lavoro in site.lavori %}
+                    {% if lavoro.dove == 1 %}
+                        <a href="{{ lavoro.url }}" class="rw-case animatelink false" style="{{ lavoro.sfondo }}">
+                            <h3>{{ lavoro.data }}</h3>
+                            <div class="arrow"></div>
+                            <div class="case-title">
+                                <h2>{{ lavoro.nome }}</h2>
+                                <h2 style="{{ lavoro.colore }}">{{ lavoro.attivita }}</h2>
+                            </div>
+                            <img data-src="{{ lavoro.img }}" width="295" class="lazy">
+                            <div class="rw-case-overlay"></div>
+                        </a>
+                    {% endif %}
+                {% endfor %}
+          </div>
+
+      </div>
+  </div>
+
+    {% include footer.html %}
+    {% include footer-scripts.html %}
+</body>
+</html>

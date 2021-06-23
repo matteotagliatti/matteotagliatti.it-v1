@@ -1,0 +1,10 @@
+collections:
+  lavori:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "lavori"
+    values:
+      layout: "lavori"

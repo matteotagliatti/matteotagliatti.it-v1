@@ -1,0 +1,31 @@
+---
+title: 404
+---
+
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    {% include head.html %}
+    <title>{{ page.title }} - Matteo Tagliatti</title>
+</head>
+    
+
+<body class="home">
+    {% include overlay.html %}
+    {% include logo.html %}
+          
+    <div class="header">
+        <div class="header-block">
+            <h3>Qualcosa è andato storto</h3>
+            <h1>Pagina <span class="color">non</span> trovata 🤖</h1>
+            <div class="buttons-home">
+                <a href="index.html" class="btn animatelink">Vai alla Home<img src="/assets/img/arrow-small-light.svg"></a>
+            </div>
+        </div>
+    </div>
+
+{% include footer-scripts.html %}
+</body>
+
+</html>

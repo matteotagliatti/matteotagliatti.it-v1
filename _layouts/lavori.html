@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="it">
+    
+<head>
+    {% include head.html %}
+    <title>{{ page.nome }} - Matteo Tagliatti</title>
+    <meta name="description" content="{{ page.descrizione }}">
+</head>
+    
+<body >
+    {% include overlay.html %}
+    {% include logo.html %}
+
+    {% include socials.html %}
+    
+    <div class="section sub-header case-header" style="{{ page.sfondo }} url('/assets/img/line-case.svg') 15vw top no-repeat; background-size: contain;">
+        <div class="wrap-wide">
+            <div class="case-block">
+                <div class="case-left">
+                    <h3>{{ page.data }}</h3>
+                    <div class="case-title">
+                        <h1>{{ page.nome }}</h1>
+                        <h1 style="{{ page.colore }}">{{ page.attivita }}</h1>
+                    </div>
+                    <a href="#intro" class="btn more-info">Tutte le info <img src="/assets/img/arrow-small-light.svg"></a>
+                </div>
+                <div class="case-right">
+                    <img src="{{ page.img }}">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="intro" class="section case-intro">
+        <div class="wrap">
+            <div class="sub-wrap left">
+                <h3></h3>
+                <h2>Il mio lavoro</h2>
+                <p>{{ page.descrizione }}</p>
+            </div>
+            <div class="sub-wrap right">
+                <h3>Servizi</h3>
+                <p>{{ page.attivita }}</p>
+                <div class="stripe"></div>
+                <h3>Attività</h3>
+                <p>{{ page.ambito }}</p>
+                <div class="stripe"></div>
+                <h3>Sito web</h3>
+                <p>{{ page.sito }}</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section case-images">
+        <div class="wrap-wide">
+            <div class="slider-block-images">
+                <div class="flexslider-images">
+                    <ul class="slides">
+                        <li>
+                            <img src="{{ page.slide[0] }}">
+                        </li>
+                        <li>
+                            <img src="{{ page.slide[1] }}">
+                        </li>
+                        <li>
+                            <img src="{{ page.slide[2] }}">
+                        </li>
+                    </ul>
+                </div>
+                <div class="custom-controls-container-images"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section case-result-text">
+        <div class="wrap">
+            <h3></h3>
+            <h2>Cosa ho fatto?</h2>
+            <p>{{ page.descrizione2 }}</p>
+        </div>
+    </div>
+
+    <div class="section case-images case-result" style="{{ page.sfondo }}">
+        <div class="wrap-wide">
+            <div class="slider-block-images">
+                <div class="flexslider-results">
+                    <ul class="slides">
+                        <li>
+                            <div class="wrap">
+                                <img src="{{ page.slide-grandi[0] }}">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="wrap">
+                                <img src="{{ page.slide-grandi[1] }}">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="wrap">
+                                <img src="{{ page.slide-grandi[2] }}">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="wrap">
+                                <img src="{{ page.slide-grandi[3] }}">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="custom-controls-container-results"></div>
+            </div>
+        </div>
+    </div>
+
+    {% include footer.html %}
+    {% include footer-scripts.html %}
+</body>
+
+</html>
