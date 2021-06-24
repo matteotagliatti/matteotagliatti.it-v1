@@ -1,3 +1,3 @@
 # 😎 My website
 
-Builth with Jekyll and simple HTML, CSS, JS and JQuery.
+Built with [Jekyll](https://jekyllrb.com/) and simple HTML, CSS, JS and JQuery.

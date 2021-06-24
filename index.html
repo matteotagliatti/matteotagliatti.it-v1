@@ -1,6 +1,6 @@
 ---
-title: Web Design & Development
-description: Mi chiamo Matteo Tagliatti. Sono un web designer e developer in continuo spostamento tra Pavia e Alessandria.
+nome: Web Design & Development
+descrizione: Mi chiamo Matteo Tagliatti. Sono un web designer e developer in continuo spostamento tra Pavia e Alessandria.
 ---
 
 <!doctype html>
@@ -8,8 +8,6 @@ description: Mi chiamo Matteo Tagliatti. Sono un web designer e developer in con
 
 <head>
   {% include head.html %}
-  <title>{{ page.title }} - Matteo Tagliatti</title>
-  <meta name="description" content="{{ page.description }}">
 </head>
 
 <body class="home">
@@ -39,8 +37,7 @@ description: Mi chiamo Matteo Tagliatti. Sono un web designer e developer in con
           <div class="wrap">
               <div class="block-left">
                   <h2 class="light">Chi sono?</h2>
-                  <p class="light">{{ page.description }} Realizzo interfacce web su misura e costruisco siti web con Wordpress, Shopify, Gatsby e altro. Chiarezza e semplicità sono le mie linee guida.</p>
-
+                  <p class="light">{{ page.descrizione }} Realizzo interfacce web su misura e costruisco siti web con Wordpress, Shopify, Gatsby e altro. Chiarezza e semplicità sono le mie linee guida.</p>
               </div>
 
               <div class="block-right">
@@ -58,6 +55,7 @@ description: Mi chiamo Matteo Tagliatti. Sono un web designer e developer in con
                       <p class="light">Jekyll</p>
                   </div>
               </div>
+              
           </div>
 
       </div>

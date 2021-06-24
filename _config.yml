@@ -1,6 +1,14 @@
 collections:
   lavori:
     output: true
+    order:
+      - centrufficiooutlet.md
+      - studio-acqua-tortona.md
+      - centrosposiparadiso.md
+      - template-html.md
+      - futsalvigevano.md
+      - motostore.md
+      - aep.md
 
 defaults:
   - scope:

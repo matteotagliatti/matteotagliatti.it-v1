@@ -3,8 +3,6 @@
     
 <head>
     {% include head.html %}
-    <title>{{ page.nome }} - Matteo Tagliatti</title>
-    <meta name="description" content="{{ page.descrizione }}">
 </head>
     
 <body >
@@ -36,7 +34,7 @@
             <div class="sub-wrap left">
                 <h3></h3>
                 <h2>Il mio lavoro</h2>
-                <p>{{ page.descrizione }}</p>
+                <p>{{ page.descrizione }} {{ page.descrizione2 }}</p>
             </div>
             <div class="sub-wrap right">
                 <h3>Servizi</h3>
@@ -72,6 +70,7 @@
         </div>
     </div>
 
+    {% if page.desc2 == 1 %}
     <div class="section case-result-text">
         <div class="wrap">
             <h3></h3>
@@ -79,32 +78,22 @@
             <p>{{ page.descrizione2 }}</p>
         </div>
     </div>
+    {% endif %}
 
     <div class="section case-images case-result" style="{{ page.sfondo }}">
         <div class="wrap-wide">
             <div class="slider-block-images">
                 <div class="flexslider-results">
                     <ul class="slides">
+                        {% assign i = 0 %}
+                        {% for slide-grande in page.slide-grandi %}
                         <li>
                             <div class="wrap">
-                                <img src="{{ page.slide-grandi[0] }}">
+                                <img src="{{ page.slide-grandi[i] }}">
                             </div>
                         </li>
-                        <li>
-                            <div class="wrap">
-                                <img src="{{ page.slide-grandi[1] }}">
-                            </div>
-                        </li>
-                        <li>
-                            <div class="wrap">
-                                <img src="{{ page.slide-grandi[2] }}">
-                            </div>
-                        </li>
-                        <li>
-                            <div class="wrap">
-                                <img src="{{ page.slide-grandi[3] }}">
-                            </div>
-                        </li>
+                        {% assign i = i | plus:1 %}
+                        {% endfor %}
                     </ul>
                 </div>
                 <div class="custom-controls-container-results"></div>
