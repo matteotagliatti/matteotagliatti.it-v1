@@ -1,7 +1,7 @@
 ---
 nome: Centro Sposi Paradiso
 descrizione: Mi sono occupato dell'ideazione e della realizzazione del design dell'ecommerce.
-attivita: Sito Web
+attivita: WordPress
 url: centrosposiparadiso.html
 data: 2020
 img: /media/centrosposiparadiso/mockup.png
@@ -14,4 +14,5 @@ slide-grandi:
     - /media/centrosposiparadiso/centrosposiparadiso-sitoweb1.jpg
     - /media/centrosposiparadiso/centrosposiparadiso-sitoweb2.jpg
     - /media/centrosposiparadiso/centrosposiparadiso-sitoweb3.jpg
+altro-url: template-html.html
 ---

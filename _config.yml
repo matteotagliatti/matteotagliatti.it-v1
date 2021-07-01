@@ -16,3 +16,9 @@ defaults:
       type: "lavori"
     values:
       layout: "lavori"
+
+url: "https://matteotagliatti.it"
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag

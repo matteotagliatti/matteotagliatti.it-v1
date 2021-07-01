@@ -2,8 +2,8 @@
 dove: 1
 nome: Studio Acqua
 descrizione: Mi sono occupato dell'ideazione e della realizzazione complessiva del sito web.
-attivita: Sito Web
-url: studio-acqua.html
+attivita: WordPress
+url: studio-acqua-tortona.html
 data: 2021
 img: /media/studioacquatortona/mockup.png
 colore: "color: #174C6A;"
@@ -16,4 +16,5 @@ slide-grandi:
     - /media/studioacquatortona/studio-acqua-sitoweb2.jpg
     - /media/studioacquatortona/studio-acqua-sitoweb3.jpg
     - /media/studioacquatortona/studio-acqua-sitoweb4.jpg
+altro-url: centrosposiparadiso.html
 ---

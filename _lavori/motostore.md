@@ -14,10 +14,11 @@ slide:
     - /media/motostore/halloween-carosello.jpg
     - /media/motostore/SEO.jpg
 desc2: 1
-descrizione2: Ideazione Campagne con i manager aziendali, Google Ads, Facebook Ads, Newsletter, gestione dei Social Media, SEO. Pianificazione e realizzazione viene fatta anche i brand proprietari Smook, Bullstone e MotoWay. Definizione di una linea grafica generale e realizzazione delle creatività riguardanti le Campagne Marketing per i Negozi in Outlet, E-Commerce, App MotoWay, Smook e Bullstone, applicate a tutti i relativi spazi. Ha compreso anche la realizzazione di pagine pubblicitarie pubblicate sulla Rivista Motociclismo, realizzazione di un video in After Effect per il lancio dell'App MotoWay e di ulteriori video presenti in negozio.
+descrizione3: Ideazione Campagne con i manager aziendali, Google Ads, Facebook Ads, Newsletter, gestione dei Social Media, SEO. Pianificazione e realizzazione viene fatta anche i brand proprietari Smook, Bullstone e MotoWay. Definizione di una linea grafica generale e realizzazione delle creatività riguardanti le Campagne Marketing per i Negozi in Outlet, E-Commerce, App MotoWay, Smook e Bullstone, applicate a tutti i relativi spazi. Ha compreso anche la realizzazione di pagine pubblicitarie pubblicate sulla Rivista Motociclismo, realizzazione di un video in After Effect per il lancio dell'App MotoWay e di ulteriori video presenti in negozio.
 slide-grandi:
     - /media/motostore/fidelity-flyer.jpg
     - /media/motostore/fidelity-motociclismo.jpg
     - /media/motostore/newsletter-smook.jpg
     - /media/motostore/motoreporter.jpg
+altro-url: aep.html
 ---

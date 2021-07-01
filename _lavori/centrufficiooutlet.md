@@ -2,7 +2,7 @@
 dove: 1
 nome: Centrufficio Outlet
 descrizione: Mi sono occupato dell'ideazione e della realizzazione complessiva del sito web.
-attivita: Sito Web
+attivita: WordPress
 url: centrufficiooutlet.html
 data: 2021
 img: /media/centrufficiooutlet/centrufficiooutlet-mockup.png
@@ -15,4 +15,5 @@ slide-grandi:
     - /media/centrufficiooutlet/centrufficiooutlet-home.jpg
     - /media/centrufficiooutlet/centrufficiooutlet-servizi.jpg
     - /media/centrufficiooutlet/centrufficiooutlet-arredi.jpg
+altro-url: studio-acqua-tortona.html
 ---

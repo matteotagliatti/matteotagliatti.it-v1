@@ -14,9 +14,10 @@ slide:
     - /media/aep/bv-fronte.jpg
     - /media/aep/bv-retro.jpg
 desc2: 1
-descrizione2: Qui sotto la brochure realizzata in formato A4 contenente il portfolio aziendale.
+descrizione3: Qui sotto la brochure realizzata in formato A4 contenente il portfolio aziendale.
 slide-grandi:
     - /media/aep/brochure1.jpg
     - /media/aep/brochure2.jpg
     - /media/aep/brochure3.jpg
+altro-url: centrufficiooutlet.html
 ---
