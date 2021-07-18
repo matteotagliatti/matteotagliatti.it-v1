@@ -1,4 +1,1 @@
-# Allow crawling of all content
-User-agent: *
-
-Sitemap: http://matteotagliatti.it/sitemap.xml
+Sitemap: https://matteotagliatti.it/sitemap.xml
