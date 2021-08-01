@@ -13,7 +13,6 @@ slide:
     - /media/aep/logo.jpg
     - /media/aep/bv-fronte.jpg
     - /media/aep/bv-retro.jpg
-desc2: 1
 descrizione3: Qui sotto la brochure realizzata in formato A4 contenente il portfolio aziendale.
 slide-grandi:
     - /media/aep/brochure1.jpg

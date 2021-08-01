@@ -13,7 +13,6 @@ slide:
     - /media/futsal/logo.jpg
     - /media/futsal/logo-champions.jpg
     - /media/futsal/logo-europa.jpg
-desc2: 1
 descrizione3: Mi sono occupato della realizzazione del sito web, del logo e di tutti i contenuti pubblicati dall'organizzazione dal punto di vista grafico, web, comunicazione e marketing.
 slide-grandi:
     - /media/futsal/rollup.jpg
