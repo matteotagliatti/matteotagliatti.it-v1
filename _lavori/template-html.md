@@ -1,6 +1,7 @@
 ---
 nome: Template
-descrizione: Esperimenti realizzati in varie occasioni utilizzando design responsive e diverse libreria JavaScript. 
+descrizione: Esperimenti realizzati in varie occasioni utilizzando design responsive e diverse libreria JavaScript 
+descrizione2: tra cui jquery, flexslider, modernizr, transit. Due design stati realizzati e sviluppati con l'ausilio della piattaforma online Webflow.
 attivita: HTML, CSS, JS
 url: template-html.html
 data: 2018 a 2020

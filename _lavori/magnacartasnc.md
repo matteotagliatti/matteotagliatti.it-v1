@@ -1,7 +1,7 @@
 ---
 nome: Magna Carta
 descrizione: Realizzazione completa di design e sviluppo del sito web onepage. Realizzato con JQuery.
-attivita: HTML, CSS, JS, JQuery
+attivita: HTML, CSS, JS
 data: 2019
 img:  /media/magnacartasnc/mockup.png
 colore: "color: #ab1ee1;"
