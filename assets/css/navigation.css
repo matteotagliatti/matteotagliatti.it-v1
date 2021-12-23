@@ -31,6 +31,8 @@
 .em { background: url("../img/ico-em-light.svg") center center no-repeat;}
 .gh { background: url("../img/ico-gh-light.svg") center center no-repeat;}
 .books { background: url("../img/ico-books-light.svg") center center no-repeat;}
+.movies { background: url("../img/ico-movies-light.svg") center center no-repeat;}
+
 
 @media screen and (max-width: 760px){
 	.socials {
