@@ -4,7 +4,7 @@ descrizione: Esperimenti realizzati in varie occasioni utilizzando design respon
 descrizione2: tra cui jquery, flexslider, modernizr, transit. Due design stati realizzati e sviluppati con l'ausilio della piattaforma online Webflow.
 attivita: HTML, CSS, JS
 url: template-html.html
-data: 2018 a 2020
+data: 2018 a 2022
 img: /media/web design/mockup.png
 colore: "color: #1a9926;"
 sfondo: "background: #F4F4F4"
