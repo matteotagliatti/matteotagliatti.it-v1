@@ -6,7 +6,7 @@
 
 - 💻 I’m a web developer and designer
 - 🏋️‍♂️ CrossFit addicted
-- 📖 Books lover
+- 📖 Book lover
 - 💡Clarity and simplicity are my guidelines
 - 📫 How to reach me: matteotagliatti@gmail.com
 
