@@ -7,7 +7,7 @@ social-network-links:
   linkedin: https://www.linkedin.com/in/matteotagliatti/
 
 collections:
-  lavori:
+  work:
     output: true
     order:
       - centrufficiooutlet.md
@@ -22,9 +22,9 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "lavori"
+      type: "work"
     values:
-      layout: "lavori"
+      layout: "work"
 
 plugins:
   - jekyll-sitemap

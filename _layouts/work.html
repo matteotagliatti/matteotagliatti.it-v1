@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
     
 <head>
     {% include head.html %}
@@ -11,14 +11,15 @@
 
     {% include socials.html %}
     
-    <div class="section sub-header case-header" style="{{ page.sfondo }} url('/assets/img/line-case.svg') 15vw top no-repeat; background-size: contain;">
+    <!-- Header -->
+    <div class="section sub-header case-header" style="{{ page.bg }} url('/assets/img/line-case.svg') 15vw top no-repeat; background-size: contain;">
         <div class="wrap-wide">
             <div class="case-block">
                 <div class="case-left">
                     <h3>{{ page.data }}</h3>
                     <div class="case-title">
-                        <h1>{{ page.nome }}</h1>
-                        <h1 style="{{ page.colore }}">{{ page.attivita }}</h1>
+                        <h1>{{ page.title }}</h1>
+                        <h1 style="{{ page.color }}">{{ page.work }}</h1>
                     </div>
                     <a href="#intro" class="btn more-info">Tutte le info <img src="/assets/img/arrow-small-light.svg"></a>
                 </div>
@@ -29,26 +30,27 @@
         </div>
     </div>
 
+    <!-- Description -->
     <div id="intro" class="section case-intro">
         <div class="wrap">
             <div class="sub-wrap left">
                 <h3></h3>
-                <h2>Il mio lavoro</h2>
-                <p>{{ page.descrizione }} {{ page.descrizione2 }}</p>
+                <h2>My work</h2>
+                <p>{{ page.description }} {{ page.description2 }}</p>
             </div>
             <div class="sub-wrap right">
-                <h3>Servizi</h3>
-                <p>{{ page.attivita }}</p>
+                <h3>work</h3>
+                <p>{{ page.work }}</p>
+                {% if page.website %}
                 <div class="stripe"></div>
-                <h3>Attività</h3>
-                <p>{{ page.ambito }}</p>
-                <div class="stripe"></div>
-                <h3>Sito web</h3>
-                <p>{{ page.sito }}</p>
+                <h3>Website</h3>
+                <p>{{ page.website }}</p>
+                {% endif %}
             </div>
         </div>
     </div>
 
+    <!-- Small Slide -->
     <div class="section case-images">
         <div class="wrap-wide">
             <div class="slider-block-images">
@@ -70,26 +72,28 @@
         </div>
     </div>
 
-    {% if page.descrizione3 %}
+    <!-- Second Description -->
+    {% if page.description3 %}
     <div class="section case-result-text">
         <div class="wrap">
             <h3></h3>
-            <h2>Cosa ho fatto?</h2>
-            <p>{{ page.descrizione3 }}</p>
+            <h2>What have I done?</h2>
+            <p>{{ page.description3 }}</p>
         </div>
     </div>
     {% endif %}
 
+    <!-- Big Slide -->
     <div class="section case-images case-result" style="{{ page.sfondo }}">
         <div class="wrap-wide">
             <div class="slider-block-images">
                 <div class="flexslider-results">
                     <ul class="slides">
                         {% assign i = 0 %}
-                        {% for slide-grande in page.slide-grandi %}
+                        {% for big-slide in page.big-slide %}
                         <li>
                             <div class="wrap">
-                                <img src="{{ page.slide-grandi[i] }}">
+                                <img src="{{ page.big-slide[i] }}">
                             </div>
                         </li>
                         {% assign i = i | plus:1 %}
@@ -98,14 +102,6 @@
                 </div>
                 <div class="custom-controls-container-results"></div>
             </div>
-        </div>
-    </div>
-
-    <div class="section home-rw s">
-        <div class="wrap-wide">
-            <div class="rw-title">
-                <a href="{{ page.altro-url }}" class="btn more-info" style="background: #191A1E; color: #fff; border: none;">Altro lavoro<img src="/assets/img/arrow-small-light.svg"></a>
-            </div> 
         </div>
     </div>
 

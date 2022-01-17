@@ -1,6 +1,6 @@
 ---
-nome: Work
-descrizione: My works
+title: Work
+description: My works
 ---
 
 <!DOCTYPE html>
@@ -32,16 +32,16 @@ descrizione: My works
 
             <div class="flexslider">
                 <ul class="slides">
-                    {% for lavoro in site.lavori %}
+                    {% for work in site.work %}
                     <li>
-                        <a href="{{ lavoro.url }}" class="rw-case animatelink false" style="{{ lavoro.sfondo }}">
-                            <h3>{{ lavoro.data }}</h3>
+                        <a href="{{ work.url }}" class="rw-case animatelink false" style="{{ work.bg }}">
+                            <h3>{{ work.data }}</h3>
                             <div class="arrow"></div>
                             <div class="case-title">
-                                <h2>{{ lavoro.nome }}</h2>
-                                <h2 style="{{ lavoro.colore }};">{{ lavoro.attivita }}</h2>
+                                <h2>{{ work.title }}</h2>
+                                <h2 style="{{ work.color }};">{{ work.work }}</h2>
                             </div>
-                            <img data-src="{{ lavoro.img }}" width="295" class="lazy">
+                            <img data-src="{{ work.img }}" width="295" class="lazy">
                         </a>
                     </li>
                     {% endfor %}

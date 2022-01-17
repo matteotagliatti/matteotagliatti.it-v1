@@ -1,6 +1,6 @@
 ---
-nome: Web Developer and Designer
-descrizione: I'm Matteo Tagliatti. I'm a web developer and deisgner, CrossFit addicted and books lover, located near Milan.
+title: Web Developer and Designer
+description: I'm Matteo Tagliatti, a web developer and deisgner, CrossFit addicted and books lover, located near Milan.
 ---
 
 <!doctype html>
@@ -16,6 +16,7 @@ descrizione: I'm Matteo Tagliatti. I'm a web developer and deisgner, CrossFit ad
 
   {% include socials.html %}
   
+  <!-- Header -->
   <div class="header">
       <div class="header-block">
           <h3>Matteo Tagliatti</h3>
@@ -24,6 +25,7 @@ descrizione: I'm Matteo Tagliatti. I'm a web developer and deisgner, CrossFit ad
       <a href="#home-about" class="scroll-down"></a>
   </div>
 
+  <!-- Image + Info -->
   <div id="home-about" class="section home-about">
       <div class="wrap-wide">
           <div class="photo">
@@ -34,10 +36,11 @@ descrizione: I'm Matteo Tagliatti. I'm a web developer and deisgner, CrossFit ad
               </div>
           </div>
 
+          <!-- Info -->
           <div class="wrap">
               <div class="block-left">
                   <h2 class="light">Who?</h2>
-                  <p class="light">{{ page.descrizione }} Clarity and simplicity are my guidelines.</p>
+                  <p class="light">{{ page.description }} Clarity and simplicity are my guidelines.</p>
               </div>
 
               <div class="block-right">
@@ -49,37 +52,39 @@ descrizione: I'm Matteo Tagliatti. I'm a web developer and deisgner, CrossFit ad
                       <p class="light">SQL</p>
                   </div>
                   <div class="col-right">
-                      <h3 class="color">Design</h3>
-                      <p class="light">Figma</p>
-                      <p class="light">Photoshop</p>
-                      <p class="light">Illustrator</p>
+                      <h3 class="color">Framework / CMS</h3>
+                      <p class="light">Vue.js & React.js</p>
+                      <p class="light">Lavarel</p>
+                      <p class="light">WordPress</p>
                   </div>
               </div>
               
           </div>
-
       </div>
   </div>
 
+  <!-- Work -->
   <div class="section home-rw">
       <div class="wrap-wide">
 
+        <!-- Work Title -->
           <div class="rw-title">
               <h2>Recent work</h2>
               <a href="work.html" class="btn animatelink">All work<img src="/assets/img/arrow-small-light.svg"></a>
           </div>
           
+          <!-- Works -->
           <div class="rw-cases">
-                {% for lavoro in site.lavori %}
-                    {% if lavoro.dove == 1 %}
-                        <a href="{{ lavoro.url }}" class="rw-case animatelink false" style="{{ lavoro.sfondo }}">
-                            <h3>{{ lavoro.data }}</h3>
+                {% for work in site.work %}
+                    {% if work.home == 1 %}
+                        <a href="{{ work.url }}" class="rw-case animatelink false" style="{{ work.bg }}">
+                            <h3>{{ work.data }}</h3>
                             <div class="arrow"></div>
                             <div class="case-title">
-                                <h2>{{ lavoro.nome }}</h2>
-                                <h2 style="{{ lavoro.colore }}">{{ lavoro.attivita }}</h2>
+                                <h2>{{ work.title }}</h2>
+                                <h2 style="{{ work.color }}">{{ work.work }}</h2>
                             </div>
-                            <img data-src="{{ lavoro.img }}" width="295" class="lazy">
+                            <img data-src="{{ work.img }}" width="295" class="lazy">
                             <div class="rw-case-overlay"></div>
                         </a>
                     {% endif %}
