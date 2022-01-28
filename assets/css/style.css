@@ -1727,55 +1727,6 @@ body.work .progressContainer, body.work .footer {
     transition: all 1s ease-in-out;   
  }
 
- /* ------------------------- Books -------------------------------------------------- */
-
- .book-list {
-    line-height: 1.7;
- }
-
- .underline {
-     text-decoration: underline;
- }
-
-.cit {
-    font-style: italic;
-}
-
-.hidden {
-	display:none;
-}
-
-.visible {
-	display:block;
-}
-
-.book-sub-wrap-left {
-    width: 30%;
-    position: relative;
-    float: left;
-    padding-right: 40px;
-}
-
-.book-sub-wrap-right {
-    width: 70%;
-    position: relative;
-    float: left;
-}
-
-@media screen and (max-width: 760px){
-
-    .book-sub-wrap-left{
-        width: 100%;
-        padding-right: 0%;
-    }
-
-    .book-sub-wrap-right {
-        width: 100%;
-        padding-right: 0%;
-    }
-    
-}
-
  /* ------------------------- Servizi -------------------------------------------------- */
 
 .diensten {
