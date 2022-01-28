@@ -10,7 +10,7 @@
 h1, h2, h3, h4, p, a, b  {padding: 0; margin: 0; font-weight: 400;}
 li, ul {padding: 0; margin: 0; list-style: none;}
 
-h1 {font-size: 54px; line-height: 72px; font-family: 'Silka-SemiBold', sans-serif;}
+h1 {font-size: 54px; line-height: 55px; font-family: 'Silka-SemiBold', sans-serif;}
 h2 {font-size: 32px; line-height: 46px; font-family: 'Silka-SemiBold', sans-serif; margin-bottom: 15px;}
 h3 {font-size: 12px; line-height: 30px; font-family: 'Silka-SemiBold', sans-serif; text-transform: uppercase; letter-spacing: 2px; color: rgba(25, 26, 30, 0.4); margin-bottom: 5px;}
 h4 {font-size: 21px; line-height: 30px; font-family: 'Silka-SemiBold', sans-serif;}
